@@ -10,7 +10,7 @@ namespace SilasTube;
     DataScheme = CALLBACK_SCHEME)]
     public class WebAuthenticatorActivity : WebAuthenticatorCallbackActivity
     {
-         const string CALLBACK_SCHEME = "com.nmartindev.silastube.login";
+         const string CALLBACK_SCHEME = "";
 
          protected override void OnCreate(Bundle savedInstanceState)
          {
